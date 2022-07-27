@@ -16,7 +16,6 @@ import org.springframework.security.web.authentication.session.SessionAuthentica
 @KeycloakConfiguration
 class SecurityConfig extends KeycloakWebSecurityConfigurerAdapter {
 
-
 	/**
 	 * Role of the nominal registered Fitzhi user.
 	 */
