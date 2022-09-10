@@ -4,9 +4,9 @@ name: Orchestration pipeline (java)
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
 env:
   LANG: "fr_FR.UTF-8"
 jobs:
