@@ -15,9 +15,6 @@ jobs:
     strategy:
         matrix:
             os: [ubuntu-latest, macOS-latest]
-    defaults:
-      run:
-        working-directory: ./back-fitzhi
     steps:
     - uses: actions/checkout@v2
     - name: "Setup locale settings on the Ubuntu instance for fr_FR.UTF8"
