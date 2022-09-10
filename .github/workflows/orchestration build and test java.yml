@@ -27,7 +27,6 @@ jobs:
       if: (matrix.os == 'ubuntu-latest')
     - name: "Testing locale settings"
       run: sudo locale
-      if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'macOS-latest')
     - name: "Simple Test for macOS"
       run: sudo locale -a
       if: (matrix.os == 'macOS-latest')
