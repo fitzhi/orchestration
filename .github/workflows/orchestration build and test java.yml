@@ -22,6 +22,6 @@ jobs:
           sudo locale-gen fr_FR.UTF-8
           sudo update-locale LANG=fr_FR.UTF-8
 #      if: (matrix.os == 'ubuntu-latest')
-#    - name: "Testing locale settings"
-#        run: sudo locale
+    - name: "Testing locale settings"
+      run: sudo locale
 #      if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'macOS-latest')
