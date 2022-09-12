@@ -14,7 +14,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
         matrix:
-            os: [ubuntu-latest]
+            os: [ubuntu-latest, macOS-latest]
     steps:
     - uses: actions/checkout@v2
     - name: "Setup locale settings on the Ubuntu instance for fr_FR.UTF8"
@@ -24,4 +24,3 @@ jobs:
       if: (matrix.os == 'ubuntu-latest')
     - name: "Testing locale settings"
       run: sudo locale
-#      if: (matrix.os == 'ubuntu-latest') || (matrix.os == 'macOS-latest')
