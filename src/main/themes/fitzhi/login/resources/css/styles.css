@@ -1,0 +1,28 @@
+:root {
+	--color-selected: #198754;
+	--color-error: #dc3545;
+}
+
+.login-pf body {
+    background: whitesmoke;
+    background-size: cover;
+    height: 100%;
+}
+
+.login-pf-page {
+    width: fit-content;
+    margin: auto;
+}
+
+.login-pf-page-header {
+    font-size: 30px;
+}
+
+.login-pf-page-header::before {
+    content: "质";
+	font-size: 110px;
+	background: -webkit-linear-gradient(var(--color-selected), var(--color-error));
+	background-clip: text;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}

@@ -3,6 +3,7 @@
     "realm": "fitzhi-orchestration",
     "enabled": true,
     "displayName": "Fitzhi main orchestration",
+    "loginTheme": "fitzhi",
     "roles": {
         "realm": [
             {
@@ -11,5 +12,5 @@
                 "description": "corresponding to the internal FITZHI property ${fitzhi.user.registration} in application.properties"
             }
         ]
-    }  
+    }
 }
